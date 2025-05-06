@@ -8,7 +8,7 @@ from pathlib import Path
 import subprocess
 
 st.set_page_config(page_title="Generatore Certificati", layout="centered")
-st.title("📄 Generatore massivo di certificati CISL Medici")
+st.title("📄 Generatore massivo di certificati")
 
 excel_file = st.file_uploader("📥 Carica il file Excel", type=["xlsx"])
 word_template = st.file_uploader("📄 Carica il template Word (.docx)", type=["docx"])
